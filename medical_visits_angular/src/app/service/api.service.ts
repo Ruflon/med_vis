@@ -11,7 +11,7 @@ import { DoctorListElem, Speciality } from '../model/doctor-list-elem';
 
 @Injectable({providedIn:"root"})
 export class ApiService {
-  public static url = "https://medicalvisits.azurewebsites.net/";
+  public static url = "https://medicalvisits.azurewebsites.net";
 
   constructor(private http: HttpClient, private authService: AuthenticationService) {}
 
