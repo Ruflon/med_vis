@@ -1,9 +1,10 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/medical_visits
+    # url: jdbc:postgresql://localhost:5432/medical_visits
+    url: jdbc:postgresql://medicalvisitsbackend.postgres.database.azure.com:5432/medicalvisitsbackend
     username: postgres
-    password: admin
-    driver-class-name: org.postgresql.Driver
+    password: Admin1234
+    # driver-class-name: org.postgresql.Driver
   jpa:
 #    properties:
 #      hibernate:
@@ -21,4 +22,6 @@ spring:
         enabled: 'false'
 
 server:
-  port: 8081
+  # address: https://medicalvisits.azurewebsites.net
+  # port: 8081
+  
