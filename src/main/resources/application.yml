@@ -3,7 +3,7 @@ spring:
     # url: jdbc:postgresql://localhost:5432/medical_visits
     url: jdbc:postgresql://medicalvisitsdb.postgres.database.azure.com:5432/medicalvisitsdb
     username: postgres
-    password: Admin1234
+    password: Admin12345
     # driver-class-name: org.postgresql.Driver
   jpa:
 #    properties:
